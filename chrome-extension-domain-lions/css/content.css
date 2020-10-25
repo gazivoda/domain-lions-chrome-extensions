@@ -1,0 +1,25 @@
+body {
+    /*background: #ff0000 !important;*/
+}
+
+.dot {
+    opacity: 0.7;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    background: red;
+    z-index: 9999999;
+    margin-left: 47vw;
+    margin-top: 50vh;
+    top: 0px;
+    border-radius: 50%;
+}
+
+.fade {
+    transition: opacity 1s;
+    transition-delay: 3s;
+    opacity: 0;
+}
+.green {
+    background: green !important;
+}
